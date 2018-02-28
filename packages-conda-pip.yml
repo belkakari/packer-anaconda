@@ -14,6 +14,7 @@
         - rtree
         - tqdm
         - bhtsne
+        - line_profiler
       when:
         - ansible_distribution == "Ubuntu"
         - ansible_distribution_version|version_compare(16.04, '<=')
